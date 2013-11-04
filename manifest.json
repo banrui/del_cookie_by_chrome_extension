@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Nothing Wuaki for us",
+	"description": "Delete the cookie and history of your web browser for your privacy",
+	"version": "1",
+	"browser_action": {
+		"default_icon": "images/icon.png"
+	},
+	"icons": {
+		"16": "images/16.png",
+		"48": "images/48.png",
+		"128": "images/128.png"
+	},
+	"permissions": ["tabs", "cookies", "contextMenus", "unlimitedStorage", "storage", "http://*/*", "https://*/*"],
+	"background": {
+		"scripts": ["jquery-1.9.1.min.js", "background.js"]
+	},
+	"options_page": "options.html",
+	"web_accessible_resources": ["images/48.png"]
+}
+                
